@@ -1,0 +1,111 @@
+body{
+    background-color: #FAFAFA;
+    width: 1345px;
+}
+
+#heroimg{
+    border-radius: 50%;
+    width: 576px;
+    height: 576px;
+    box-shadow: 0px 4px 31px #0000000A;
+    border: 20px solid #FFFFFF;
+    float: left;
+}
+
+#main{
+    position: relative;
+    top: 72px;
+    left: 128px;
+    bottom: 72px;
+}
+
+#submain{
+    float: left;
+    position: relative;
+    left: 163px;
+    width: 500px;
+}
+
+#header-logo{
+    position: relative;
+    top: 34px;
+    width: 272px;
+    height: 58px;
+}
+
+#text1{
+    font: 300 40px/47px Roboto;
+    color: #3E3E3E;
+    position: relative;
+    top: 53.17px;
+}
+
+#expert{
+    color: #C8242F;
+    font:900 40px/53px Roboto;
+}
+
+#text2{
+    position: relative;
+    top: 85.04px;
+    font: 25px/33px Roboto;
+    color: #3E3E3E;
+}
+
+#usrname{
+    display: block;
+    width: 400px;
+    height: 21px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    position: relative;
+    top: 108.49px;
+    padding: 14.5px;
+    font: 15px/20px Roboto;
+}
+
+#passwd{
+    display: block;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    width: 400px;
+    height: 21px;
+    position: relative;
+    top: 135.49px;
+    padding: 14.5px;
+    font:15px/20px Roboto;
+}
+
+#login{
+    position: relative;
+    top: 165px;
+    width: 138px;
+    height: 45px;
+    border-color: #C8242F;
+    border-radius: 23px;
+    background: #C8242F;
+    font:18px/24px Roboto;
+    color: #FFFFFF;
+}
+
+#fp{
+    color: #ADADAD;
+    float: right;
+    position: relative;
+    top: 178px;
+    right: 69px;
+    font: 15px/20px Roboto;
+}
+
+#newMember{
+    color: #ADADAD;
+    font: 15px/20px Roboto;
+    position: relative;
+    top: 220px;
+    right: 140px;
+    text-decoration: none;
+}
+
+#register{
+    color: #C8242F;
+}

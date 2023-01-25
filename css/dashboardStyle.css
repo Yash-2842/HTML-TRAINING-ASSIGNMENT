@@ -1,0 +1,173 @@
+header{
+    width: 100%;
+    height: 80px;
+}
+
+#menubar{
+    width: 45px;
+    height: 30px;
+    position: relative;
+    top: 26px;
+    left: 29px;
+}
+
+#logo{
+    width: 142px;
+    height: 30px;
+    position: relative;
+    left: 45px;
+    top: 25px;
+}
+
+#search-icon{
+    width: 20px;
+    height: 30px;
+    position: relative;
+    top: 26px;
+    left: 120px;
+}
+
+#search{
+    position: relative;
+    left: 345px;
+    bottom: 5px;
+    font: 16px/21px Roboto;
+}
+
+#dwarr{
+    float: right;
+    position: relative;
+    right: 43px;
+    bottom: 27px;
+}
+
+#usrname{
+    font: 16px/21px Roboto;
+    position: relative;
+    float: right;
+    right: 59px;
+    bottom: 27px;
+}
+
+#profile{
+    width: 38px;
+    height: 38px;
+    float: right;
+    position: relative;
+    bottom: 34px;
+    right: 71px;
+}
+
+#notification{
+    float: right;
+    position: relative;
+    right: 116px;
+    bottom: 29px;
+}
+
+aside{
+    float: left;
+}
+
+#dashboard-active{
+    width: 23px;
+    height: 23px;
+    position: relative;
+    left: 22px;
+    top: 11px;
+}
+
+#highlight{
+    font: 16px/21px Roboto;
+    color: #C8242F;
+    background: #FFF3F4;
+    border-radius: 5px;
+    position: relative;
+    left: 50px;
+    width: 183px;
+    height: 43px;
+    top: 20px;
+}
+
+#highdsh{
+    font: 16px/21px Roboto;
+    color: #C8242F;
+    position: relative;
+    bottom: 32px;
+    left: 54px;
+}
+
+#analysis-lab{
+    font: 16px/21px Roboto;
+    border-radius: 5px;
+    position: relative;
+    left: 50px;
+    width: 183px;
+    height: 43px;
+    top: 27px;
+}
+
+.icon{
+    width: 23px;
+    height: 23px;
+    position: relative;
+    left: 22px;
+    top: 11px;
+}
+
+.label{
+    font: 16px/21px Roboto;
+    position: relative;
+    bottom: 32px;
+    left: 54px;
+}
+
+#inbox-lab{
+    font: 16px/21px Roboto;
+    border-radius: 5px;
+    position: relative;
+    left: 50px;
+    width: 183px;
+    height: 43px;
+    top: 27px;
+}
+
+#history-lab{
+    font: 16px/21px Roboto;
+    border-radius: 5px;
+    position: relative;
+    left: 50px;
+    width: 183px;
+    height: 43px;
+    top: 27px;
+}
+
+#users-lab{
+    font: 16px/21px Roboto;
+    border-radius: 5px;
+    position: relative;
+    left: 50px;
+    width: 183px;
+    height: 43px;
+    top: 27px;
+}
+
+#maintenance-lab{
+    font: 16px/21px Roboto;
+    border-radius: 5px;
+    position: relative;
+    left: 50px;
+    width: 183px;
+    height: 43px;
+    top: 27px;
+}
+
+#setting-lab{
+    font: 16px/21px Roboto;
+    border-radius: 5px;
+    position: relative;
+    left: 50px;
+    width: 183px;
+    height: 43px;
+    top: 27px;
+}
