@@ -1,111 +1,137 @@
-body{
-    background-color: #FAFAFA;
-    width: 1345px;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    display: flex;
+    margin:auto;
+    margin-top: 72px;
+    max-width: max-content;
 }
 
 #heroimg{
-    border-radius: 50%;
     width: 576px;
     height: 576px;
     box-shadow: 0px 4px 31px #0000000A;
     border: 20px solid #FFFFFF;
-    float: left;
-}
-
-#main{
-    position: relative;
-    top: 72px;
-    left: 128px;
-    bottom: 72px;
+    border-radius: 50%;
 }
 
 #submain{
-    float: left;
-    position: relative;
-    left: 163px;
+    margin-left: 163px;
     width: 500px;
 }
 
-#header-logo{
-    position: relative;
-    top: 34px;
+#logo{
+    margin-top: 34px;
     width: 272px;
     height: 58px;
 }
 
 #text1{
+    margin-top: 20px;
     font: 300 40px/47px Roboto;
     color: #3E3E3E;
-    position: relative;
-    top: 53.17px;
 }
 
-#expert{
+#exprt{
+    font: 900 40px/53px Roboto;
     color: #C8242F;
-    font:900 40px/53px Roboto;
 }
 
 #text2{
-    position: relative;
-    top: 85.04px;
-    font: 25px/33px Roboto;
+    font: normal normal normal 25px/33px Roboto;
     color: #3E3E3E;
+    margin-top: 32px;
 }
 
 #usrname{
-    display: block;
-    width: 400px;
-    height: 21px;
+    margin-top: 24px;
+    width: 77%;
+    height: 20px;
     border: 1px solid #ADADAD;
     border-radius: 5px;
-    position: relative;
-    top: 108.49px;
-    padding: 14.5px;
+    padding: 15px;
+    display: inline-block;
+}
+
+::placeholder{
     font: 15px/20px Roboto;
+    color: #ADADAD;
 }
 
 #passwd{
-    display: block;
+    margin-top: 27px;
     border: 1px solid #ADADAD;
     border-radius: 5px;
-    width: 400px;
-    height: 21px;
-    position: relative;
-    top: 135.49px;
-    padding: 14.5px;
-    font:15px/20px Roboto;
+    width: 77%;
+    height: 20px;
+    padding: 15px;
+    display: inline-block;
 }
 
 #login{
-    position: relative;
-    top: 165px;
+    margin-top: 30px;
+    background: #C8242F 0% 0% no-repeat padding-box;
+    border-radius: 23px;
     width: 138px;
     height: 45px;
-    border-color: #C8242F;
-    border-radius: 23px;
-    background: #C8242F;
-    font:18px/24px Roboto;
+    font: 18px/24px Roboto;
     color: #FFFFFF;
+    border-color: #C8242F;
+}
+
+#lfp{
+    display: flex;
+    width: 83%;
+    justify-content: space-between;
+    margin-bottom: 23px;
 }
 
 #fp{
-    color: #ADADAD;
-    float: right;
-    position: relative;
-    top: 178px;
-    right: 69px;
+    margin-top: 42px;
+    text-decoration: none;
     font: 15px/20px Roboto;
+    color: #ADADAD;
+    margin-left: 170px;
 }
 
 #newMember{
-    color: #ADADAD;
-    font: 15px/20px Roboto;
-    position: relative;
-    top: 220px;
-    right: 140px;
     text-decoration: none;
+    margin-top: 23px;
+    font: 15px/20px Roboto;
+    color: #ADADAD;
 }
 
 #register{
+    font: 15px/20px Roboto;
     color: #C8242F;
+}
+
+@media screen and (max-width:1151px) {
+#submain{
+    margin-left: 10%;
+    width: 300px;
+}
+#heroimg{
+    width: 50%;
+    height: 50%;
+}
+}
+
+@media screen and (max-width:850px){
+#container{
+    flex-direction: column;
+} 
+#submain{
+    width: 70%;
+}   
+#logo{
+    width: 80%;
+    height: 80%;
+}
+#fp{
+    margin-left: 12%;
+}
 }
