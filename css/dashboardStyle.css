@@ -223,8 +223,11 @@ nav a{
 #tab-head{
     display: flex;
     justify-content: space-between;
-    margin-top: 52px;
+    margin-top: 35px;
     background-color: white;
+    padding: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 th{
@@ -237,8 +240,12 @@ th{
 table{
     background-color: white;
     width: 100%;
-    margin-top: 35px;
     border-spacing: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+tr{
     vertical-align: middle;
 }
 
@@ -252,14 +259,37 @@ td{
     border-bottom: 1px solid whitesmoke;
 }
 
+#inv{
+    font: 22px/29px Roboto;
+    color: #3E3E3E;
+}
 
+#view{
+    font: normal normal normal 12px/16px Roboto;
+    color: #C8242F;
+}
 
+td div{
+    width: fit-content;
+    padding: 2px 12px;
+    border-radius: 5px;
+    font: 15px/20px Roboto;
+}
 
+#paid{
+    background: #EBFFEF;
+    color: #3CDD5F;
+}
 
+#fail{
+    background: #FFF5F5;
+    color: #FF4545;
+}
 
-
-
-
+#pending{
+    background: #F8F8F8;
+    color: #BABABA;
+}
 
 
 
@@ -277,14 +307,39 @@ td{
         margin-right: 0;
     }   
     #dgraphdiv{
-        margin: 10px auto;
         width: 80%;
     }
     #pchartdiv{
-        margin: 10px auto;
         width: 80%;
     }
     .main{
         width: 82%;
+    }
+    #items{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    table{
+        margin: 0px;
+    }
+    #tab-head{
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    header{
+        display: none;
+    }
+    #container{
+        flex-direction: column;
+    }
+    aside{
+        flex-direction: row;
+        width: unset;
+        flex-wrap: wrap;
+    }
+    main{
+        width: unset;
     }
 }
