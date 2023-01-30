@@ -8,17 +8,21 @@ header{
     justify-content: space-between;
 }
 
+#head1, #head2{
+    justify-content: space-around;
+}
+
 #menu{
     border: none;
     width: 25px;
     height: 18px;
     margin-top: 34px;
-    margin-left: 25px;
+    margin-left: 5px;
     background-color: white;
 }
 
 #logo{
-    margin: 25px;
+    margin: 25px 5px;
     width: 142px;
     height: 30px;
 }
@@ -27,12 +31,15 @@ header{
     width: 16px;
     height: 16px;
     margin-top: 33px;
-    margin-left: 20px;
+    margin-left: 8px;
 }
 
 #search{
     border: none;
-    margin-left: 15px;
+    margin-left: 8px;
+    height: 21px;
+    padding: 2px;
+    margin-top: 32px;
 }
 
 #notification-icon{
@@ -45,7 +52,7 @@ header{
     width: 44px;
     height: 44px;
     margin-top: 18px;
-    margin-left: 52px;
+    margin-left: 10px;
 }
 
 header div{
@@ -55,15 +62,13 @@ header div{
 header div p{
     margin-top: 27px;
     font: 16px/21px Roboto;
-    margin-left: 8px;
-    margin-right: 14px;
+    margin-left: 10px;
 }
 
 #dropdown{
     height: 25px;
     width: 35px;
     margin-top: 25px;
-    margin-right: 43px;
 }
 
 body div{
@@ -74,6 +79,7 @@ aside{
     width: 18%;
     display: flex;
     flex-direction: column;
+    padding: 0px 10px;
 }
 
 aside div{
@@ -118,7 +124,6 @@ aside div p{
 
 main{
     background: #FAFAFA;
-    width: 92%;
 }
 
 form{
@@ -316,6 +321,11 @@ label div{
     margin: 10px 15px;
 }
 
+#t2:active{
+    color: #C8242F;
+    border-bottom: 2px solid #C8242F;
+}
+
 #t1, #t2, #t3{
     font: 15px/20px Roboto;
     text-decoration: none;
@@ -350,12 +360,12 @@ label div{
     .col3 select{
         height: 28px;
     }
+    #inpName{
+        width: 78% !important;
+    }
 }
 
 @media screen and (max-width:721px) {
-    header{
-        display: none;
-    }
     #container{
         flex-direction: column;
     }
@@ -374,5 +384,31 @@ label div{
     }
     main{
         width: unset;
+    }
+    #logo{
+        width: 105px;
+    }
+    #search{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    #menu{
+        width: 20px;
+    }
+    #logo{
+        width: 90px;
+    }
+    #notification-icon{
+        width: 16px;
+    }
+    #profile{
+        width: 32px;
+        height: 32px;
+        margin-top: 25px
+    }
+    #dropdown{
+        width: 25px;
     }
 }

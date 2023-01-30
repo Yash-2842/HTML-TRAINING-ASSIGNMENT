@@ -6,16 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="stylesheet" href="css\dashboardstyle.css">
+    <script>
+        function dis(){
+            if(document.getElementById('check').checked==false){
+                document.getElementById('aside').style.display = 'none';
+            }else{
+                document.getElementById('aside').style.display = 'flex';
+            }
+        }
+    </script>
 </head>
 <body>
     <header>
-        <div>
-            <a href="http://"><img src="images\menu-bar.svg" alt="" id="menu"></a>
+        <div id="head1">
+            <input type="checkbox" id="check" hidden>
+            <label for="check">
+            <a onclick="dis()"><img src="images\menu-bar.svg" alt="" id="menu"></a></label>
             <img src="images\header-logo.svg" alt="logo" id="logo">
             <img src="images\search-icon.svg" alt="search-icon" id="search-icon">
-            <div><input type="search" placeholder="Search" id="search"></div>
+            <input type="search" placeholder="Search" id="search">
         </div>
-        <div>
+        <div id="head2">
             <a href="http://"><img src="images\notification-icon.svg" alt="notification-icon" id="notification-icon"></a>
             <a href="http://"><img src="images\profile.png" alt="profile" id="profile"></a>
             <p>John Doe</p>
@@ -23,7 +34,7 @@
         </div>
     </header>
     <div id="container">
-        <aside>
+        <aside id="aside">
             <div id="highlight">
                 <img src="images\dashboard-active.svg" alt="Dashboard" class="icon">
                 <p>Dashboard</p>
