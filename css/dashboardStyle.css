@@ -330,7 +330,7 @@ td div{
     }
 }
 
-@media screen and (max-width:828px) {
+@media screen and (max-width:864px) {
     #container{
         flex-direction: column;
     }
