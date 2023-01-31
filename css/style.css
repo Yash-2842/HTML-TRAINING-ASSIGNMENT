@@ -126,12 +126,20 @@
 } 
 #submain{
     width: 70%;
+    margin: auto;
 }   
+#heroimg{
+    margin: auto;
+}
 #logo{
     width: 80%;
     height: 80%;
 }
+#lfp{
+    flex-direction: column;
+}
 #fp{
-    margin-left: 12%;
+    margin-left: 0px;
+    margin-top: 25px;
 }
 }
